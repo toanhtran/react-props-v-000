@@ -10,11 +10,12 @@ class MovieCard extends React.Component {
         <h2>Mad Max: Fury Road</h2>
         <small>Genres: Action, Adventure, Science Fiction, Thriller</small>
       </div>
-      MovieCard.defaultProps = {
-      poster: 'http://i.imgur.com/bJw8ndW.png'
-    };
+    );
   }
 }
+MovieCard.defaultProps = {
+  poster: 'http://i.imgur.com/bJw8ndW.png'
+};
 
 ReactDOM.render(
   <MovieCard />,
